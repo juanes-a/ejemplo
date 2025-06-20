@@ -1,0 +1,12 @@
+{
+  "name": "expexample",
+  "version": "1.0.0",
+  "description": "Demo ESLint con GitHub Actions",
+  "main": "ejemplo.js",
+  "scripts": {
+    "lint": "eslint ejemplo.js"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0"
+  }
+}
