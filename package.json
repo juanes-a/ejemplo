@@ -1,15 +1,15 @@
 {
-  "env": {
-    "browser": true,
-    "es2021": true
+  "name": "expexample",
+  "version": "1.0.0",
+  "description": "Demo ESLint con GitHub Actions",
+  "main": "ejemplo.js",
+  "scripts": {
+    "lint": "eslint ejemplo.js"
   },
-  "extends": "eslint:recommended",
-  "parserOptions": {
-    "ecmaVersion": 12,
-    "sourceType": "module"
-  },
-  "rules": {
-    "semi": ["error", "always"],
-    "quotes": ["error", "double"]
+  "devDependencies": {
+    "@eslint/js": "^9.29.0",
+    "eslint": "^8.57.1",
+    "globals": "^16.2.0"
   }
+  
 }

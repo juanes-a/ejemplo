@@ -22,4 +22,4 @@ jobs:
         run: chmod +x ./node_modules/.bin/eslint
 
       - name: Ejecutar ESLint
-        run: ./node_modules/.bin/eslint ejemplo.js
+        run: npx eslint ejemplo.js  
